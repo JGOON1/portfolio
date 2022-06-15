@@ -1,4 +1,5 @@
 import React from 'react'
+import portrait from "../images/john.jpg"
 
 export default function About() {
   return (
@@ -10,8 +11,8 @@ export default function About() {
             <br className="hidden lg:inline-block" /> 
           </h1>
           <p className="mb-8 leading-relaxed">
-            I'm a full-stack web developer, looking to collaborate with other professional developers.
-            Seeking to always grow and gain experience as a junior web developer.
+            Full-Stack web developer with a focus on front end. I am eager to work with other professional developers to learn and grow with like-minded people.
+            I have a passion for learning and applying my skills in order to bring designs to fruition.
           </p>
           <div className="flex justify-center">
             <a
@@ -29,8 +30,8 @@ export default function About() {
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
             className="object-cover object-center rounded"
-            alt="hero"
-            src="./coding.svg"
+            alt="self portrait"
+            src={portrait}
           />
         </div>
       </div>
