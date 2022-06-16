@@ -23,5 +23,5 @@ export const projects = [
 ]
 
 export const skills = [
-    "javascript", "react", "tailwind"
+    "Javascript", "React", "Node.js", "MongoDB", "PostgresSQL"
 ]
